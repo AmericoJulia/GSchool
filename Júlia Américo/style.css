@@ -1,26 +1,17 @@
-.card{
-padding: 20px;
-margin: 20px;
-background-color: transparent;
-border: 2px solid rgb(106, 74, 11);
-border-radius: 15px;
-display: flex;
-}
-
-.flores{
-    width: 200px;
-    height: 200px;
-    border-radius: 15px;
-    object-fit: cover;
-    margin-right: 10px;
-}
-
-.flor-titulo{
+*{
     margin: 0;
-    color: black;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-.flor-texto{
-    font-size: 25px;
-    margin-bottom: 0;
+.banner{
+    height: 100vh;
+    background-image: url('./imagens/WhatsApp\ Image\ 2023-11-23\ at\ 07.18.10.jpeg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner > header{
+
 }
